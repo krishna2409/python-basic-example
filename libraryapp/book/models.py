@@ -1,7 +1,7 @@
 from django.db import models
 #DataFlair Models
 class Book(models.Model):
-    #add comment add add
+    #add comment add add yes
     name = models.CharField(max_length = 50)
     picture = models.ImageField()
     author = models.CharField(max_length = 30, default='anonymous')
